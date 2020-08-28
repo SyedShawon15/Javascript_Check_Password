@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    position: absolute;
+    left: 28%;
+    top: 5%;
+    width: 600px;
+    height: 500px;
+    background: #fff;
+    box-shadow: 0 5px 25px #ddd;
+    border-radius: 10px;
+}
+
+label {
+    position: relative;
+    display: block;
+    top: 50px;
+    padding: 20px;
+}
+
+input {
+    position: absolute;
+    left: 30%;
+    width: 40%;
+    height: 30px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    background: #e8eaf6;
+}
+
+.button {
+    position: relative;
+    top: 80px;
+    left: 130px;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    background: linear-gradient(to left, #e0030e, #e29e0b);
+}
+.swal2-popup{
+	position: relative;
+	bottom: 80px;
+}
+.swal2-confirm {
+	position : relative;
+	left:10px;
+	display : inline-block;
+}
